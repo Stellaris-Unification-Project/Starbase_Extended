@@ -5,7 +5,7 @@ event = { # Starbase Extended - Upgrade Test
 	hide_window = yes
 	is_triggered_only = yes
 	immediate = {
-		every_country = { 
+		every_playable_country = { 
 			limit = { is_country_type = default }
 			give_technology = { tech = tech_starbase_1 }
 			give_technology = { tech = tech_starbase_2 }
